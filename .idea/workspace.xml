@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="67761047-564d-4936-8937-44552b6a75cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atuadores/AtuadorPrincipal.py" beforeDir="false" afterPath="$PROJECT_DIR$/atuadores/AtuadorPrincipal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controles/Controlador.py" beforeDir="false" afterPath="$PROJECT_DIR$/controles/Controlador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entidade/Dedo.py" beforeDir="false" afterPath="$PROJECT_DIR$/entidade/Dedo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entidade/Mao.py" beforeDir="false" afterPath="$PROJECT_DIR$/entidade/Mao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/InterfaceBateria.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/InterfaceBateria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/InterfaceLuz.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/InterfaceLuz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/InterfacePressao.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/InterfacePressao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/InterfaceSensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/InterfaceSensor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,30 +21,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controles/Controlador.py">
+        <entry file="file://$PROJECT_DIR$/interfaces/InterfacePressao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entidade/Motor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/entidade/SensorLuz.py">
+        <entry file="file://$PROJECT_DIR$/interfaces/InterfaceSensor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,13 +63,17 @@
         <option value="$PROJECT_DIR$/Interfaces/InterfaceLuz.py" />
         <option value="$PROJECT_DIR$/Interfaces/InterfaceRotacao.py" />
         <option value="$PROJECT_DIR$/Interfaces/InterfaceBateria.py" />
-        <option value="$PROJECT_DIR$/atuadores/AtuadorPrincipal.py" />
-        <option value="$PROJECT_DIR$/controles/Controlador.py" />
         <option value="$PROJECT_DIR$/entidade/Bateria.py" />
-        <option value="$PROJECT_DIR$/entidade/Mao.py" />
-        <option value="$PROJECT_DIR$/entidade/Dedo.py" />
         <option value="$PROJECT_DIR$/entidade/Motor.py" />
         <option value="$PROJECT_DIR$/entidade/SensorLuz.py" />
+        <option value="$PROJECT_DIR$/entidade/Dedo.py" />
+        <option value="$PROJECT_DIR$/entidade/Mao.py" />
+        <option value="$PROJECT_DIR$/atuadores/AtuadorPrincipal.py" />
+        <option value="$PROJECT_DIR$/controles/Controlador.py" />
+        <option value="$PROJECT_DIR$/interfaces/InterfaceBateria.py" />
+        <option value="$PROJECT_DIR$/interfaces/InterfaceLuz.py" />
+        <option value="$PROJECT_DIR$/interfaces/InterfacePressao.py" />
+        <option value="$PROJECT_DIR$/interfaces/InterfaceSensor.py" />
       </list>
     </option>
   </component>
@@ -95,7 +99,12 @@
             <path>
               <item name="SmartProsthesis" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartProsthesis" type="462c0819:PsiDirectoryNode" />
-              <item name="entidade" type="462c0819:PsiDirectoryNode" />
+              <item name="controles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartProsthesis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartProsthesis" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -107,6 +116,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -174,6 +184,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29787233" />
@@ -215,22 +226,7 @@
     <entry file="file://$PROJECT_DIR$/interfaces/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/InterfacePressao.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/InterfaceLuz.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/interfaces/InterfaceRotacao.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/InterfaceBateria.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/InterfaceSensor.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atuadores/AtuadorPrincipal.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/teste" />
@@ -241,40 +237,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entidade/Mao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entidade/Dedo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controles/Controlador.py">
+    <entry file="file://$PROJECT_DIR$/entidade/Mao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entidade/Motor.py">
+    <entry file="file://$PROJECT_DIR$/atuadores/AtuadorPrincipal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entidade/SensorLuz.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entidade/Motor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controles/Controlador.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaces/InterfaceBateria.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaces/InterfaceLuz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaces/InterfacePressao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaces/InterfaceSensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

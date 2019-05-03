@@ -1,5 +1,5 @@
 from entidade import Bateria
-from controles import Controlador
+from controle import Controlador
 
 class InterfaceBateria:
     def __init__(self):

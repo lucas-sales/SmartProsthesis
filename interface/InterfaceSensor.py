@@ -1,5 +1,5 @@
-from controles import Controlador
-from interfaces import *
+from controle import Controlador
+from interface import *
 
 class InterfaceSensor:
     def __init__(self):

@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67761047-564d-4936-8937-44552b6a75cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atuadores/AtuadorPrincipal.py" beforeDir="false" afterPath="$PROJECT_DIR$/atuadores/AtuadorPrincipal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controles/Controlador.py" beforeDir="false" afterPath="$PROJECT_DIR$/controles/Controlador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidade/Dedo.py" beforeDir="false" afterPath="$PROJECT_DIR$/entidade/Dedo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidade/Mao.py" beforeDir="false" afterPath="$PROJECT_DIR$/entidade/Mao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/InterfaceBateria.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/InterfaceBateria.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/InterfaceLuz.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/InterfaceLuz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/InterfacePressao.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/InterfacePressao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/InterfaceSensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/InterfaceSensor.py" afterDir="false" />
-    </list>
+    <list default="true" id="67761047-564d-4936-8937-44552b6a75cd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

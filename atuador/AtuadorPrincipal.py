@@ -4,14 +4,17 @@ class AtuadorPrincipal:
     def __init__(self):
         self.mao = Mao()
 
-    def abrirMao(self):
+    def abrir(self):
         algumaCoisa
 
-    def fecharMao(self):
+    def fechar(self):
         algumaCoisa
 
     def rotacionarMao(self):
         algumaCoisa
 
-    def ativarLed(self):
+    def ativarLedVermelho(self):
+        algumaCoisa
+
+    def ativarLedLaranja(self):
         algumaCoisa

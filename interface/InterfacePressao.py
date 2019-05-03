@@ -1,8 +1,17 @@
-from entidade import SensorLuz
+from entidade import SensorPressao
 
-class InterfaceLuz:
+class InterfacePressao:
     def __init__(self):
-        self.sensorLuz = SensorLuz()
+        self.sensorPressao = SensorPressao()
+        self.abrir = False
 
-    def getSensor(self):
-        return self.sensorLuz
+    def getPressao(self):
+        self.setPressao()
+        return self.sensorPressao
+
+    def setPressao(self):
+        #Verifica se o sensor foi pressionado duas vezes
+        #if ...
+        #...
+        #...
+        self.abrir = True

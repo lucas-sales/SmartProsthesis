@@ -10,11 +10,11 @@ class InterfaceBateria:
     def setNivelBateria(self):
         valor = 0.0
         #calcula o nivel de bateria:
-            #...
+            #if ...
             #...
             #valor = floatNivelBateria
         self.nivelBateria = valor
 
     def getNivelBateria(self):
-        setNivelBateria()
+        self.setNivelBateria()
         return self.nivelBateria
